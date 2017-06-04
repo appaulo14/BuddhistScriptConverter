@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="913e4654-a37f-4554-a1e5-84a6b2b6602e" name="PaulCain@PAULCAIN-LAPTOP 2011-04-04 09:18:45" runUser="PaulCain-LAPTOP\PaulCain" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="eee8f7b1-74d7-4c3b-b079-322de6842498">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestResults\PaulCain_PAULCAIN-LAPTOP 2011-04-04 09_18_45">
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.dll" />
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Debug\MyInstaller.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-04T09:18:45.9752066+05:30" queuing="2011-04-04T09:18:46.8282526+05:30" start="2011-04-04T09:18:47.0082629+05:30" finish="2011-04-04T09:18:47.6842993+05:30" />
+  <TestDefinitions>
+    <UnitTest name="UnIinstallFont_InsufficientRegistryPermission_RollsbackFileCopy" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="2d3f831b-6387-1c76-7775-2c55bcff5444">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that registry updates without administrator permission throw System.Security.SecurityException</Description>
+      <Owners>
+        <Owner name="UninstallFont()" />
+      </Owners>
+      <Execution id="d7dc9b74-277f-4b7f-b623-216c92432194" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerNonAdminTest, TestProject1" name="UnIinstallFont_InsufficientRegistryPermission_RollsbackFileCopy" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2d3f831b-6387-1c76-7775-2c55bcff5444" executionId="d7dc9b74-277f-4b7f-b623-216c92432194" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d7dc9b74-277f-4b7f-b623-216c92432194" testId="2d3f831b-6387-1c76-7775-2c55bcff5444" testName="UnIinstallFont_InsufficientRegistryPermission_RollsbackFileCopy" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0403769" startTime="2011-04-04T09:18:46.9432592+05:30" endTime="2011-04-04T09:18:47.6532976+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

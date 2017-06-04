@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="21dd49f6-27a1-4782-8a13-03e5e48933a8" name="PaulCain@PAULCAIN-LAPTOP 2011-04-04 09:26:20" runUser="PaulCain-LAPTOP\PaulCain" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="eee8f7b1-74d7-4c3b-b079-322de6842498">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestResults\PaulCain_PAULCAIN-LAPTOP 2011-04-04 09_26_20">
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.dll" />
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Debug\MyInstaller.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-04T09:26:20.4166847+05:30" queuing="2011-04-04T09:26:23.5928664+05:30" start="2011-04-04T09:26:23.9878890+05:30" finish="2011-04-04T09:26:25.2079588+05:30" />
+  <TestDefinitions>
+    <UnitTest name="UnIinstallFont_NonExistentFontName_ThrowsException" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="d9b7bc8c-0aef-f447-f495-7ba9fbcead18">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that passing font name that does not exist throws an ArgumentException</Description>
+      <Owners>
+        <Owner name="UninstallFont()" />
+      </Owners>
+      <Execution id="c21be2a5-166d-4974-8083-be1be4f97068" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerAdminTest, TestProject1" name="UnIinstallFont_NonExistentFontName_ThrowsException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d9b7bc8c-0aef-f447-f495-7ba9fbcead18" executionId="c21be2a5-166d-4974-8083-be1be4f97068" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c21be2a5-166d-4974-8083-be1be4f97068" testId="d9b7bc8c-0aef-f447-f495-7ba9fbcead18" testName="UnIinstallFont_NonExistentFontName_ThrowsException" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0848702" startTime="2011-04-04T09:26:24.1778999+05:30" endTime="2011-04-04T09:26:25.0619504+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

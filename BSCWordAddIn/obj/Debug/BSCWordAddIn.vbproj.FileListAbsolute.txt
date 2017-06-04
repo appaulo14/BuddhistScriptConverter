@@ -1,0 +1,11 @@
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\bin\Debug\BSCWordAddIn.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\bin\Debug\BSCWordAddIn.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\bin\Debug\BSCWordAddIn.dll.manifest
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\bin\Debug\BuddhistScriptConverter.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\bin\Debug\BuddhistScriptConverter.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\bin\Debug\BuddhistScriptConverter.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\obj\Debug\BSCWordAddIn.Resources.resources
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\obj\Debug\BSCWordAddIn.vbproj.GenerateResource.Cache
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\obj\Debug\BSCWordAddIn.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BSCWordAddIn\obj\Debug\BSCWordAddIn.pdb

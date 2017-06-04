@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="441a2493-5d4f-485b-a394-6a318e1b9e78" name="PaulCain@PAULCAIN-LAPTOP 2011-04-02 22:15:33" runUser="PaulCain-LAPTOP\PaulCain" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="eee8f7b1-74d7-4c3b-b079-322de6842498">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestResults\PaulCain_PAULCAIN-LAPTOP 2011-04-02 22_15_33">
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.dll" />
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Debug\MyInstaller.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="PAULCAIN-LAPTOP" outcome="Error" timestamp="2011-04-02T22:17:02.1428245+05:30">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2011-04-02T22:15:33.8087720+05:30" queuing="2011-04-02T22:15:39.0410713+05:30" start="2011-04-02T22:15:39.4020920+05:30" finish="2011-04-02T22:17:02.1438245+05:30" />
+  <TestDefinitions>
+    <UnitTest name="IsFontInstalled_FontsThatExist_ReturnTrue" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="9ddfb8d0-c5ee-e722-4600-ae0c2d9c4896">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm some system fonts are correctly reported as installed</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0bd3941b-43bc-4a9c-ab83-377c9a7c335b" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.InstalledFontCheckerTest, TestProject1" name="IsFontInstalled_FontsThatExist_ReturnTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ddfb8d0-c5ee-e722-4600-ae0c2d9c4896" executionId="14358250-c4dd-4325-8e8f-9928818718ab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="14358250-c4dd-4325-8e8f-9928818718ab" testId="9ddfb8d0-c5ee-e722-4600-ae0c2d9c4896" testName="IsFontInstalled_FontsThatExist_ReturnTrue" computerName="PAULCAIN-LAPTOP" duration="00:01:22.4447155" startTime="2011-04-02T22:15:39.6991090+05:30" endTime="2011-04-02T22:17:02.1438245+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

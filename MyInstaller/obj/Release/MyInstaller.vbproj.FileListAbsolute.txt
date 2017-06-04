@@ -1,0 +1,9 @@
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Release\MyInstaller.dll
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Release\MyInstaller.pdb
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Release\MyInstaller.xml
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\obj\Release\ResolveAssemblyReference.cache
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\obj\Release\MyInstaller.Resources.resources
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\obj\Release\MyInstaller.vbproj.GenerateResource.Cache
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\obj\Release\MyInstaller.dll
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\obj\Release\MyInstaller.xml
+D:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\obj\Release\MyInstaller.pdb

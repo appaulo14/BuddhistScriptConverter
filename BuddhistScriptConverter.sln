@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BuddhistScriptConverter", "BuddhistScriptConverter\BuddhistScriptConverter.vbproj", "{D7940B10-1842-4788-AD5F-23C3AA3514B0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TestProject1", "TestProject1\TestProject1.vbproj", "{A72DEA27-15A6-474B-87AC-2BEDAEC9EC58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C8E7195A-D92B-4302-95EB-314AE2C42DC3}"
+	ProjectSection(SolutionItems) = preProject
+		BuddhistScriptConverter.vsmdi = BuddhistScriptConverter.vsmdi
+		BuddhistScriptConverter1.vsmdi = BuddhistScriptConverter1.vsmdi
+		BuddhistScriptConverter10.vsmdi = BuddhistScriptConverter10.vsmdi
+		BuddhistScriptConverter11.vsmdi = BuddhistScriptConverter11.vsmdi
+		BuddhistScriptConverter12.vsmdi = BuddhistScriptConverter12.vsmdi
+		BuddhistScriptConverter2.vsmdi = BuddhistScriptConverter2.vsmdi
+		BuddhistScriptConverter3.vsmdi = BuddhistScriptConverter3.vsmdi
+		BuddhistScriptConverter4.vsmdi = BuddhistScriptConverter4.vsmdi
+		BuddhistScriptConverter5.vsmdi = BuddhistScriptConverter5.vsmdi
+		BuddhistScriptConverter6.vsmdi = BuddhistScriptConverter6.vsmdi
+		BuddhistScriptConverter7.vsmdi = BuddhistScriptConverter7.vsmdi
+		BuddhistScriptConverter8.vsmdi = BuddhistScriptConverter8.vsmdi
+		BuddhistScriptConverter9.vsmdi = BuddhistScriptConverter9.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BSCWordAddIn", "BSCWordAddIn\BSCWordAddIn.vbproj", "{26456D51-5AE6-434D-B9EF-2FD2B2A63252}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BSCWordAddInSetup", "BSCWordAddInSetup\BSCWordAddInSetup", "{78B5BE1A-7C45-43BB-977C-1E37BEE12AA9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MyInstaller", "MyInstaller\MyInstaller.vbproj", "{340A9602-C430-4661-85AF-217020A0ED04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7940B10-1842-4788-AD5F-23C3AA3514B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7940B10-1842-4788-AD5F-23C3AA3514B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7940B10-1842-4788-AD5F-23C3AA3514B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7940B10-1842-4788-AD5F-23C3AA3514B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A72DEA27-15A6-474B-87AC-2BEDAEC9EC58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A72DEA27-15A6-474B-87AC-2BEDAEC9EC58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A72DEA27-15A6-474B-87AC-2BEDAEC9EC58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A72DEA27-15A6-474B-87AC-2BEDAEC9EC58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26456D51-5AE6-434D-B9EF-2FD2B2A63252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26456D51-5AE6-434D-B9EF-2FD2B2A63252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26456D51-5AE6-434D-B9EF-2FD2B2A63252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26456D51-5AE6-434D-B9EF-2FD2B2A63252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B5BE1A-7C45-43BB-977C-1E37BEE12AA9}.Debug|Any CPU.ActiveCfg = Debug
+		{78B5BE1A-7C45-43BB-977C-1E37BEE12AA9}.Release|Any CPU.ActiveCfg = Release
+		{340A9602-C430-4661-85AF-217020A0ED04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340A9602-C430-4661-85AF-217020A0ED04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340A9602-C430-4661-85AF-217020A0ED04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340A9602-C430-4661-85AF-217020A0ED04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

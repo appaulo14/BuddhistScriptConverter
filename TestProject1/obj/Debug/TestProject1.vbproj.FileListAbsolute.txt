@@ -1,0 +1,17 @@
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\BuddhistScriptConverter.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\MyInstaller.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\MyInstaller.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\MyInstaller.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\BuddhistScriptConverter.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\BuddhistScriptConverter.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\BuddhistScriptConverter_Accessor.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\MyInstaller_Accessor.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\BuddhistScriptConverter_Accessor.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\MyInstaller_Accessor.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\obj\Debug\TestProject1.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\obj\Debug\TestProject1.pdb

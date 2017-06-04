@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestProject1
+</name>
+</assembly>
+<members>
+<member name="P:TestProject1.KhmerPaliScriptTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="P:TestProject1.RomanPaliScriptTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="P:TestProject1.DevanagariPaliScriptTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="P:TestProject1.PaliTransliterator_FastTests.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="M:TestProject1.PaliTransliterator_FastTests.Transliterate_DevanagariToRomanPunctuationOnly">
+	<summary>
+Test to Ensure punctuation does not get transliterated in Devanagari =&gt; Roman
+</summary>
+</member><member name="M:TestProject1.PaliTransliterator_FastTests.Transliterate_KhmerToRomanPunctuationOnly">
+	<summary>
+Test to Ensure punctuation does not get transliterated in Roman =&gt; Devanagari
+</summary>
+</member><member name="M:TestProject1.PaliTransliterator_FastTests.Transliterate_RomanToDevanagariPunctuationOnly">
+	<summary>
+Test to Ensure punctuation does not get transliterated in Roman =&gt; Devanagari
+</summary>
+</member><member name="M:TestProject1.PaliTransliterator_FastTests.PaliTransliteratorConstructorTest">
+	<summary>
+A test for PaliTransliterator Constructor
+</summary>
+</member><member name="M:TestProject1.PaliTransliterator_FastTests.AllPaliScriptsShouldHaveSameNumberOfSymbols">
+	<summary>
+A test for PaliTransliterator Constructor
+</summary>
+</member><member name="T:TestProject1.PaliTransliterator_FastTests">
+	<summary>
+This is a test class for PaliTransliteratorTest and is intended
+to contain all PaliTransliteratorTest Unit Tests that take a short time
+</summary>
+</member><member name="P:TestProject1.BrahmiPaliScriptTest.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="P:TestProject1.PaliTransliterator_SlowTests.TestContext">
+	<summary>
+Gets or sets the test context which provides
+information about and functionality for the current test run.
+</summary>
+</member><member name="T:TestProject1.PaliTransliterator_SlowTests">
+	<summary>
+This is a test class for PaliTransliteratorTest and is intended
+to contain all PaliTransliteratorTest Unit Tests that take a long time
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,170 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BuddhistScriptConverter
+</name>
+</assembly>
+<members>
+<member name="M:BuddhistScriptConverter.Extensions.ToHex(System.Char)">
+	<summary>
+ Coverts the value of this character instance to its UTF-8 Hexadecimal representation
+ </summary>
+	<returns>A hexadecimal representation of the character Unicode point as a String</returns>
+</member><member name="M:BuddhistScriptConverter.Extensions.ToHex(System.Collections.Generic.IEnumerable{System.Char})">
+	<summary>
+ Convert all the values of an IEnumberable(Of Char) into their UTF-8 hexadecimal equivalents
+ </summary>
+	<param name="myChars"></param>
+	<returns>An IEnumerable(Of Char) containing the input values converted into hexadecimal</returns>
+</member><member name="M:BuddhistScriptConverter.Extensions.ChrWH(System.String)">
+	<summary>
+ Takes a hexadecimal value and returns the equivalent UTF-8 character.
+ </summary>
+	<returns>the equivalent UTF-8 character for the inputted hex value</returns>
+</member><member name="P:BuddhistScriptConverter.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:BuddhistScriptConverter.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:BuddhistScriptConverter.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:BuddhistScriptConverter.NonUnicodePaliScript.HalantOffset">
+	<summary>
+ Halant Offset property
+ </summary>
+	<returns>The integer value needed to get from the consonant 
+ symbol to the vowel-suppressed version (halant) by adding 
+ Unicode code points</returns>
+</member><member name="P:BuddhistScriptConverter.NonUnicodePaliScript.AnusvaraOffset">
+	<summary>
+ Anusvara offset property.
+ </summary>
+	<returns>The integer value needed to get from a symbol to 
+ its anusvared version when adding Unicode code points</returns>
+</member><member name="P:BuddhistScriptConverter.NonUnicodePaliScript.MatraOffset">
+	<summary>
+ Matra offset property
+ </summary>
+	<returns>The integer value needed to get from a consonant to 
+ the various dependent vowel forms (matras). This value gets 
+ added repeated to go from one matras to the next</returns>
+</member><member name="P:BuddhistScriptConverter.PaliScript.Anusvara">
+	<summary>
+ Anusvara property
+ </summary>
+	<returns>Returns the anusvara symbol for the given script</returns>
+</member><member name="P:BuddhistScriptConverter.PaliScript.Name">
+	<summary>
+ Name property
+ </summary>
+	<returns>Returns the name of the given script</returns>
+</member><member name="P:BuddhistScriptConverter.PaliScript.MySymbolOrder">
+	<summary>
+ MySymbolOrder property
+ </summary>
+	<returns>Return the order in which this script's symbols should be 
+ when using it as a source script for transliteration</returns>
+</member><member name="M:BuddhistScriptConverter.PaliScript.PopulateSymbols">
+	<summary>
+ Define the basic symbols for the script by adding them to the symbols 
+ dictionaries above. The base symbols are defined here; others are 
+ generated based on these.
+ </summary>
+</member><member name="M:BuddhistScriptConverter.PaliScript.ApplyVowelSupression(System.String)">
+	<summary>
+ Takes a consonant and removes the inherent vowel sound from it
+ </summary>
+	<param name="inConsonant">a consonant with an inherent vowel sound</param>
+	<returns>A form of the consoant with no inherent vowel sound</returns>
+</member><member name="M:BuddhistScriptConverter.PaliScript.ApplyAnusvara(System.String)">
+	<summary>
+ Takes any non-vowel-suppressed symbol and adds an anusvara to it.
+ </summary>
+	<param name="inSymbol">Any symbol except a dead consoant</param>
+	<returns>The the inputted symbols with an anusvara on the end</returns>
+</member><member name="M:BuddhistScriptConverter.PaliScript.PopulateMatras(System.Collections.Generic.List{System.String})">
+	<summary>
+ Takes a list of consonants and generates a list of their dependent vowel forms. 
+ </summary>
+	<param name="inConsonants">A list of consonants with an inherent "a" sound</param>
+	<returns>A list of consonants with all the other vowel forms besides "a"</returns>
+</member><member name="M:BuddhistScriptConverter.PaliScript.IsUsedIn(System.String)">
+	<summary>
+ Takes a string and determines whether the string contains symbols from
+ this script. 
+ </summary>
+	<param name="inString">A string of symbols</param>
+	<returns>True if the inputted string has symbols from this script.
+ False otherwise.</returns>
+</member><member name="P:BuddhistScriptConverter.PaliScript.Symbols(BuddhistScriptConverter.PaliScript.SymbolOrder)">
+	<summary>
+ Property that returns all of the symbols for this script, in either 
+ roman order or indic script order
+ </summary>
+	<param name="symbolOrder">Determines which symbol order to return.
+ Default to Roman script.</param>
+	<returns>All the symbols for this script</returns>
+</member><member name="M:BuddhistScriptConverter.PaliScript.PopulateAnusvaras(System.Collections.Generic.List{System.String})">
+	<summary>
+ Takes a list of symbols and returns those symbols with anusvaras with
+ symbols added to the end. 
+ </summary>
+	<param name="inSymbols">A list of consonants or dependent vowel forms (matras)</param>
+	<returns>The inputted symbols with anusvaras added to the end.</returns>
+</member><member name="M:BuddhistScriptConverter.PaliScript.PopulateDeadConsonants(System.Collections.Generic.List{System.String})">
+	<summary>
+ Takes a list of consonants and returns those same consonants without 
+ the inherent vowel sound. 
+ </summary>
+	<param name="inConsonants">A list of consonants</param>
+	<returns>List of the inputted consonants with the inherent vowel 
+ sounds removed</returns>
+	<remarks></remarks>
+</member><member name="M:BuddhistScriptConverter.PaliScript.BuildSymbolsList">
+	<summary>
+ Combines all the symbols from all the dictionaries into a single long 
+ list, ordered in two different ways depending on whether the source 
+ transliteration script is roman or Indic
+ </summary>
+</member><member name="M:BuddhistScriptConverter.PaliScript.PopulateAutogeneratedLists">
+	<summary>
+ Takes the list populated in PopulateSymbols and generates 
+ the remainder of the symbols from them, creating a full 
+ set of symbols.
+ </summary>
+</member><member name="F:BuddhistScriptConverter.PaliTransliterator.PaliScripts">
+	<summary>
+ A list of all scripts that will be used for transliteration
+ </summary>
+</member><member name="F:BuddhistScriptConverter.PaliTransliterator.DestinationPaliScript">
+	<summary>
+ The script that all of the symbols will be transliterated to
+ </summary>
+	<remarks></remarks>
+</member><member name="M:BuddhistScriptConverter.PaliTransliterator.#ctor">
+	<summary>
+ Use introspection to get a full list of available scripts
+ </summary>
+</member><member name="M:BuddhistScriptConverter.PaliTransliterator.Transliterate(System.String)">
+	<summary>
+ Take a string and converts in to the script specified in the 
+ DestinationPaliScript property.
+ </summary>
+	<param name="inString">The string to transliterate</param>
+	<returns>The inputted string, transliterated to the 
+ DestinationPaliScript property</returns>
+</member><member name="P:BuddhistScriptConverter.UnicodePaliScript.Halant">
+	<summary>
+ Returns the vowel suppression (halant symbols for this script)
+ </summary>
+	<returns>the vowel suppression (halant symbols for this script)</returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyInstaller
+</name>
+</assembly>
+<members>
+<member name="P:MyInstaller.MyInstaller.InstallDirectory">
+	<summary>
+ Gets the installdirectory with a wildcard suffix for use with URL evidence
+ </summary>
+</member><member name="M:MyInstaller.MyInstaller.ConfigureCodeAccessSecurity">
+	<summary>
+ Configures FullTrust for the entire installdirectory
+ </summary>
+</member><member name="M:MyInstaller.MyInstaller.GetPolicyLevel">
+	<summary>
+ Gets the currently defined policylevel
+ </summary>
+</member><member name="M:MyInstaller.MyInstaller.GetCodeGroup(System.Security.Policy.PolicyLevel)">
+	<summary>
+ Gets current codegroup based on CodeGroupName at the given policylevel
+ </summary>
+	<param name="policyLevel"></param>
+	<returns>null if not found</returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,9 @@
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.pdb
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\obj\Debug\BuddhistScriptConverter.Resources.resources
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\obj\Debug\BuddhistScriptConverter.vbproj.GenerateResource.Cache
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\obj\Debug\BuddhistScriptConverter.dll
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\obj\Debug\BuddhistScriptConverter.xml
+C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\obj\Debug\BuddhistScriptConverter.pdb

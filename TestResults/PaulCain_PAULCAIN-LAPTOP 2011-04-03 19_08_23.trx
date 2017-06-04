@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6244a3fc-fbb6-4698-9897-91f34c5bd945" name="PaulCain@PAULCAIN-LAPTOP 2011-04-03 19:08:23" runUser="PaulCain-LAPTOP\PaulCain" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="eee8f7b1-74d7-4c3b-b079-322de6842498">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestResults\PaulCain_PAULCAIN-LAPTOP 2011-04-03 19_08_23">
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.dll" />
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Debug\MyInstaller.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="5" executed="5" passed="5" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-03T19:08:23.8384832+05:30" queuing="2011-04-03T19:08:24.8535385+05:30" start="2011-04-03T19:08:24.9255426+05:30" finish="2011-04-03T19:08:26.2146102+05:30" />
+  <TestDefinitions>
+    <UnitTest name="InstallFont_FontFileNotExists_ThrowsException" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="b68d8513-0dc3-27f6-6626-fa46cd733180">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that non-existent files throw a IO.FileNotFoundException</Description>
+      <Owners>
+        <Owner name="InstallFont()" />
+      </Owners>
+      <Execution id="93e5a247-e607-42d9-af79-1c41d85d759d" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerTest, TestProject1" name="InstallFont_FontFileNotExists_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="InstallFont_InsufficientRegistryPermission_RollsbackFileCopy" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="7b41d4ff-faac-0550-2e6d-c078cbba54da">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that registry updates with administrator permission throw System.Security.SecurityException</Description>
+      <Owners>
+        <Owner name="InstallFont()" />
+      </Owners>
+      <Execution id="476e712b-320e-4dd6-ba43-b0eee5eeefaf" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerTest, TestProject1" name="InstallFont_InsufficientRegistryPermission_RollsbackFileCopy" />
+    </UnitTest>
+    <UnitTest name="InstallFont_InsufficientRegistryPermission_ThrowsException" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="28744ee0-eeac-2a2d-b01d-3e4b88257cb4">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that registry updates with administrator permission throw System.Security.SecurityException</Description>
+      <Owners>
+        <Owner name="InstallFont()" />
+      </Owners>
+      <Execution id="ba93db78-a699-4409-b8d0-eeff1ae7f853" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerTest, TestProject1" name="InstallFont_InsufficientRegistryPermission_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="InstallFont_NullFontName_ThrowsException" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="2e1480c7-1c1c-2b37-8cde-75f76a58f9e5">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that empty string font names throw a NullReferenceException</Description>
+      <Owners>
+        <Owner name="InstallFont()" />
+      </Owners>
+      <Execution id="7885db5a-c6f9-4cb6-92ad-dfabbb266bc6" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerTest, TestProject1" name="InstallFont_NullFontName_ThrowsException" />
+    </UnitTest>
+    <UnitTest name="InstallFont_EmptyStringFontName_ThrowsException" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="5b770f00-75e4-712b-245c-cdac772ee079">
+      <Css projectStructure="" iteration="" />
+      <Description>Confirm that empty string font names throw an ArgumentException</Description>
+      <Owners>
+        <Owner name="InstallFont()" />
+      </Owners>
+      <Execution id="ff7f55eb-e9e5-4b2b-86e9-6b7c31148e2e" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.MyFontInstallerTest, TestProject1" name="InstallFont_EmptyStringFontName_ThrowsException" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="28744ee0-eeac-2a2d-b01d-3e4b88257cb4" executionId="ba93db78-a699-4409-b8d0-eeff1ae7f853" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2e1480c7-1c1c-2b37-8cde-75f76a58f9e5" executionId="7885db5a-c6f9-4cb6-92ad-dfabbb266bc6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b770f00-75e4-712b-245c-cdac772ee079" executionId="ff7f55eb-e9e5-4b2b-86e9-6b7c31148e2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b41d4ff-faac-0550-2e6d-c078cbba54da" executionId="476e712b-320e-4dd6-ba43-b0eee5eeefaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b68d8513-0dc3-27f6-6626-fa46cd733180" executionId="93e5a247-e607-42d9-af79-1c41d85d759d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ba93db78-a699-4409-b8d0-eeff1ae7f853" testId="28744ee0-eeac-2a2d-b01d-3e4b88257cb4" testName="InstallFont_InsufficientRegistryPermission_ThrowsException" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0657439" startTime="2011-04-03T19:08:24.9595446+05:30" endTime="2011-04-03T19:08:26.0045982+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7885db5a-c6f9-4cb6-92ad-dfabbb266bc6" testId="2e1480c7-1c1c-2b37-8cde-75f76a58f9e5" testName="InstallFont_NullFontName_ThrowsException" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0017190" startTime="2011-04-03T19:08:26.0065983+05:30" endTime="2011-04-03T19:08:26.0135987+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ff7f55eb-e9e5-4b2b-86e9-6b7c31148e2e" testId="5b770f00-75e4-712b-245c-cdac772ee079" testName="InstallFont_EmptyStringFontName_ThrowsException" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0009006" startTime="2011-04-03T19:08:26.0265995+05:30" endTime="2011-04-03T19:08:26.0315998+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="476e712b-320e-4dd6-ba43-b0eee5eeefaf" testId="7b41d4ff-faac-0550-2e6d-c078cbba54da" testName="InstallFont_InsufficientRegistryPermission_RollsbackFileCopy" computerName="PAULCAIN-LAPTOP" duration="00:00:00.1410825" startTime="2011-04-03T19:08:26.0335999+05:30" endTime="2011-04-03T19:08:26.1796082+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="93e5a247-e607-42d9-af79-1c41d85d759d" testId="b68d8513-0dc3-27f6-6626-fa46cd733180" testName="InstallFont_FontFileNotExists_ThrowsException" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0172498" startTime="2011-04-03T19:08:26.1826084+05:30" endTime="2011-04-03T19:08:26.2066098+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

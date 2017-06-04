@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="011975a5-685e-4f7a-aa9a-e84aa3ec5ea2" name="PaulCain@PAULCAIN-LAPTOP 2011-04-02 22:31:44" runUser="PaulCain-LAPTOP\PaulCain" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="eee8f7b1-74d7-4c3b-b079-322de6842498">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestResults\PaulCain_PAULCAIN-LAPTOP 2011-04-02 22_31_44">
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\BuddhistScriptConverter\bin\Debug\BuddhistScriptConverter.dll" />
+      <DeploymentItem filename="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\MyInstaller\bin\Debug\MyInstaller.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2011-04-02T22:31:44.0212650+05:30" queuing="2011-04-02T22:31:45.0193221+05:30" start="2011-04-02T22:31:45.0543241+05:30" finish="2011-04-02T22:31:46.0523812+05:30" />
+  <TestDefinitions>
+    <UnitTest name="IsFontInstalled_RegKeyNotExistsFileExists_ReturnFalse" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="2271b3bd-0db8-cf81-788e-1d6dbb8b1db6">
+      <Css projectStructure="" iteration="" />
+      <Description>IsFontInstalled should return false when registry key does not exist but file does</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5fa5f7b1-34bb-43c0-9650-c72003aec482" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.InstalledFontCheckerTest, TestProject1" name="IsFontInstalled_RegKeyNotExistsFileExists_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="IsFontInstalled_RegKeyAndFileExist_ReturnTrue" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="e3c965dc-f83a-d17f-526b-7605c34db218">
+      <Css projectStructure="" iteration="" />
+      <Description>IsFontInstalled should return true when both registry key and file exist</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e8bf3f69-eb29-41cb-b307-ec4151a4ede8" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.InstalledFontCheckerTest, TestProject1" name="IsFontInstalled_RegKeyAndFileExist_ReturnTrue" />
+    </UnitTest>
+    <UnitTest name="IsFontInstalled_RegKeyExistsFileNotExists_ReturnFalse" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="dbf8f56d-8d75-7f0f-2d1a-186f32ca2d5a">
+      <Css projectStructure="" iteration="" />
+      <Description>IsFontInstalled should return false when registry key exists but file does not</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="87ac0b99-bb9f-4a52-a94f-a29762bab306" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.InstalledFontCheckerTest, TestProject1" name="IsFontInstalled_RegKeyExistsFileNotExists_ReturnFalse" />
+    </UnitTest>
+    <UnitTest name="IsFontInstalled_RegKeyAndFileNotExist_ReturnFalse" storage="c:\users\paulcain\documents\visual studio 2008\projects\buddhistscriptconverter\testproject1\bin\debug\testproject1.dll" id="8a783fa1-f364-abe5-a4f0-d803311bdd5a">
+      <Css projectStructure="" iteration="" />
+      <Description>IsFontInstalled should return false when both registry key and file do not exist</Description>
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f9ac16f3-f0b3-4af3-8093-bfd2a7f960b7" />
+      <TestMethod codeBase="C:\Users\PaulCain\Documents\Visual Studio 2008\Projects\BuddhistScriptConverter\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.InstalledFontCheckerTest, TestProject1" name="IsFontInstalled_RegKeyAndFileNotExist_ReturnFalse" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2271b3bd-0db8-cf81-788e-1d6dbb8b1db6" executionId="5fa5f7b1-34bb-43c0-9650-c72003aec482" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a783fa1-f364-abe5-a4f0-d803311bdd5a" executionId="f9ac16f3-f0b3-4af3-8093-bfd2a7f960b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbf8f56d-8d75-7f0f-2d1a-186f32ca2d5a" executionId="87ac0b99-bb9f-4a52-a94f-a29762bab306" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e3c965dc-f83a-d17f-526b-7605c34db218" executionId="e8bf3f69-eb29-41cb-b307-ec4151a4ede8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5fa5f7b1-34bb-43c0-9650-c72003aec482" testId="2271b3bd-0db8-cf81-788e-1d6dbb8b1db6" testName="IsFontInstalled_RegKeyNotExistsFileExists_ReturnFalse" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0290077" startTime="2011-04-02T22:31:45.1423291+05:30" endTime="2011-04-02T22:31:46.0153791+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f9ac16f3-f0b3-4af3-8093-bfd2a7f960b7" testId="8a783fa1-f364-abe5-a4f0-d803311bdd5a" testName="IsFontInstalled_RegKeyAndFileNotExist_ReturnFalse" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0013057" startTime="2011-04-02T22:31:46.0193793+05:30" endTime="2011-04-02T22:31:46.0243796+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="87ac0b99-bb9f-4a52-a94f-a29762bab306" testId="dbf8f56d-8d75-7f0f-2d1a-186f32ca2d5a" testName="IsFontInstalled_RegKeyExistsFileNotExists_ReturnFalse" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0016917" startTime="2011-04-02T22:31:46.0263797+05:30" endTime="2011-04-02T22:31:46.0353802+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e8bf3f69-eb29-41cb-b307-ec4151a4ede8" testId="e3c965dc-f83a-d17f-526b-7605c34db218" testName="IsFontInstalled_RegKeyAndFileExist_ReturnTrue" computerName="PAULCAIN-LAPTOP" duration="00:00:00.0019004" startTime="2011-04-02T22:31:46.0363803+05:30" endTime="2011-04-02T22:31:46.0443807+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
