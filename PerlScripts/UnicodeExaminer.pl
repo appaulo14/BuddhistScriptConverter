@@ -1,0 +1,26 @@
+﻿#!/usr/bin/perl
+use warnings;
+use strict;
+use Data::Dumper;
+use charnames ':full';
+use Moose::Autobox;
+use utf8;
+binmode STDOUT, ":utf8";
+my $word = "खन्धायतनादीनं";
+open my $file, ">:encoding(UTF-8)", 'output.txt' or die;
+my $goat = "\N{DEVANAGARI SIGN ANUSVARA}";
+my $brahmiChar = "\x{11013}";
+my $brahmiChar2 = "\x{11014}";
+print $file "$brahmiChar$brahmiChar2\n";
+my $expected = "११पच्‍चयुद्देस";
+my $actual = "११पच्चयुद्देस";
+print "expected:\n";
+print Dumper($expected);
+print "actual:\n";
+print Dumper("०अक्खिकूपमंसं");
+my %goat;
+%goat->keys()->sort();
+print "defined\n" if %goat->defined();
+print "match1\n" if "०अक्खिकूपमंसं" =~ /\p{Devanagari}/;
+print "match2\n" if "अक्खिकूपमंसं" =~ /\d/;
+print "match3\n" if "f" =~ /\p{Devanagari}/;
